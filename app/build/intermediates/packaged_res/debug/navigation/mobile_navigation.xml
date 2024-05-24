@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_checkin">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.szf_szakdolgozat.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.szf_szakdolgozat.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.szf_szakdolgozat.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_production"
+        android:name="com.example.szf_szakdolgozat.ui.production.ProductionFragment"
+        android:label="@string/menu_production"
+        tools:layout="@layout/fragment_production" />
+
+    <fragment
+        android:id="@+id/nav_maintenance"
+        android:name="s"
+        android:label="@string/menu_maintenance"
+        tools:layout="@layout/fragment_maintenance" />
+
+    <fragment
+        android:id="@+id/nav_productionplan"
+        android:name="com.example.szf_szakdolgozat.ui.Productionplan.ProductionplanFragment"
+        android:label="@string/menu_productionplan"
+        tools:layout="@layout/fragment_productionplan" />
+
+    <fragment
+        android:id="@+id/nav_checkin"
+        android:name="com.example.szf_szakdolgozat.ui.checkin.CheckinFragment"
+        android:label="@string/Checkin_fragment"
+        tools:layout="@layout/fragment_checkin" >
+        <action
+            android:id="@+id/action_nav_checkin_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+</navigation>
