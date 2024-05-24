@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "911918897385",
+    "firebase_url": "https://szf-szakdolgozat-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "szf-szakdolgozat",
+    "storage_bucket": "szf-szakdolgozat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911918897385:android:79e0059b27be13215ff878",
+        "android_client_info": {
+          "package_name": "com.example.szf_szakdolgozat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTQy7uQmpUoVRYOSIjToNCzfnPDfxK-c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
